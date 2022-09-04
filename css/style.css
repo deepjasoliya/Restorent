@@ -1,0 +1,229 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Red Hat Display', sans-serif;
+
+    
+}
+body{
+    width: 100vw;
+}
+#navbar01{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(192, 201, 22, 0);
+    
+    
+}
+#logo01{
+    display: flex;
+    height: 20px;
+    border-radius: 50%;
+    margin-left :4px;
+}
+#ul01{
+    display: flex;
+    justify-content:flex-end;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;   
+    margin-left: 4vw;
+}
+a:hover{
+    color:gray;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    display: flex;
+    align-items: center;
+    margin: 10px ;
+}
+p{
+    display:flex;
+    align-content: center;
+    margin: 10px;
+}
+button{
+    display: flex;
+    border: 0px;
+    border-radius: 3px;
+    font-size: 0.5rem;
+    padding: 5px 3px;
+    width: 100px;       
+    background-color: rgba(240, 248, 255, 0);
+    justify-content: center;
+    color: azure;
+    border: 1px solid azure;
+
+
+}
+button:hover{
+    border: 1px solid rgb(255, 255, 255);
+    text-decoration: solid black;
+    background-color:rgba(0, 0, 0, 0.495);
+    color: aliceblue;
+    cursor: pointer;
+}
+#first{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.721)),url("https://www.hometempus.com/wp-content/uploads/2022/03/modern-dark-wood-kitchen-with-winter-view.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width:100vw;
+    background-color: rgba(192, 201, 22, 0.671);
+    opacity: 0.90;
+    z-index: -1;
+}
+#head{
+    margin-top: 20vh;
+    margin-bottom: 0vh;
+    margin-right: 5ch;
+    margin-left: 5ch;
+    font-size:0.9rem;
+    color: aliceblue;
+
+}
+
+.heading{
+    margin: 5px;
+    color: black;
+    display: flex;
+}
+#services{
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100vw;
+    
+}
+
+.restroservise{
+    display: flex;
+    padding: 10px 10px;
+    border: 2px solid rgba(192, 201, 22, 0.29);
+    border-radius: 10px;
+    background-color: rgba(181, 172, 172, 0.236);
+    color:rgba(0, 0, 0, 0.99);
+
+}
+.restroservise:hover{
+    background-color:rgba(181, 172, 172, 0.736);
+    color:rgba(0, 0, 0, 2.99);
+    border: 2px solid rgba(192, 201, 22, 0.574); 
+   
+
+}
+.pservices{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    margin: 5px;
+
+}
+#ourservices{
+    display: flex;
+}
+#cust{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+
+
+
+}
+#cust1{
+    display: flex;
+}
+#cust2{
+    display: flex;
+}
+#cust3{
+    display: flex;
+}
+#cust4{
+    display: flex;
+}
+#cust1>img{
+    height: 123px;
+    width: 116px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+#cust2>img{
+    height: 150px;
+    width: 116px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+#cust3>img{
+    height: 150px;
+    width: 116px;   
+    margin-top: 20px;
+    margin-bottom: 5px;
+  
+}
+#cust4>img{
+    height: 120px;
+    width: 106px;   
+    margin-top: 20px;
+    margin-bottom: 5px;  
+    
+}
+#cust{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.677)) ,url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    z-index:-1;
+    background-color: rgba(224, 205, 205, 0.255);
+}
+.custc{
+    display: flex;
+    position: absolute;
+    z-index:1;
+}
+.contect_us{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    margin: 25px;
+
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+    }
+#phone{
+    font-size: 12px;
+}
+#twit{
+    font-size: 12px;
+}
+#wp{
+    font-size: 12px;
+}
+#insta{
+    font-size: 12px;
+}

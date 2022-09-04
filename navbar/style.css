@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#deeplogo{
+    height: 45px;
+    width: 37px;
+    border-radius: 50%;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(24, 20, 20);
+}
+.item{
+    list-style:none;
+    display: block;
+    margin: 1rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    
+    border: 3.5px solid black;
+
+    
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+margin-top: 0.01rem;
+margin-bottom: 0.01rem;
+margin-left: 1rem;
+margin-right: 5vw;
+    
+}
+a:hover{
+    color: rgba(240, 244, 255, 0.371);
+}
